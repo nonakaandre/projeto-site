@@ -151,12 +151,21 @@ main img.pequena {
     margin: auto;
 }
 
-/*div.video {
+/* ESSE SERIA OUTRA OPÇÃO, MAS NÃO GOSTEI DO RESULTADO.
+div.video {
     background-color: var(--cor);
     margin: 0px -20px 30px -20px;
     padding: 20px;
     padding-bottom: 57%;
     position: relative;
+}
+ 
+.video iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }*/
 
 div.video iframe {
