@@ -45,6 +45,7 @@ header > h1{
     color: white;
     font-family: var(--fonte-destaque);
     font-size: 3em;
+    font-weight: normal;
     padding-bottom: 20px; 
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.322);
 }
@@ -97,13 +98,16 @@ main {
 
 main h1{
     color: var(--cor0);
-    font-family: var(--fonte-android)
+    font-family: var(--fonte-android);
+    font-weight: normal;
+    font-size: 1.8em;
 }
 
 main h2{
     font-family: var(--fonte-android);
     color: var(--cor1);
     font-size: 1.3em;
+    font-weight: normal;
     background-image: linear-gradient(to right, var(--cor4), transparent);
     text-indent: 8px;
     border-radius: 1px;
@@ -147,6 +151,19 @@ main img.pequena {
     margin: auto;
 }
 
+/*div.video {
+    background-color: var(--cor);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 57%;
+    position: relative;
+}*/
+
+div.video iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+
 aside {
     background-color: var(--cor3);
     padding: 10px;
@@ -182,6 +199,7 @@ footer {
     color: white;
     text-align: center;
     font-size: 0.8em;
+    padding: 10px;
 }
 
 footer a {
