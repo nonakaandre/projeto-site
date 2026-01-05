@@ -57,6 +57,7 @@ header > p{
     max-width: 500px;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 20px;
     margin: auto;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.322);
 }
@@ -88,7 +89,6 @@ main {
     min-width: 320px;
     max-width: 800px;
     margin: auto;
-    margin-bottom: 30px;
     background-color: white;
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.377);
